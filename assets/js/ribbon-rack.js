@@ -15,3 +15,13 @@ $(window).resize(function() {
         ribbonRackColumn.addClass("is-6").removeClass("is-10");
     }
 });
+
+
+// Add event listeners to individual ribbons
+let ribbon = $(".mil-ribbon > img");
+
+ribbon.click(function() {
+    $("#medal-name").empty();
+    var medal = $(this).attr("alt");
+    $("#medal-name").text(medal);
+})

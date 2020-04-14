@@ -1,3 +1,38 @@
+/* Application-wide styling */
+
+body {
+    background-color: #FDFDFF;
+}
+
+
+/* Navbar-specific styling */
+/* .navbar-item {
+    color: black;
+}
+
+.tabs a {
+    color: black;
+} */
+
+
+/* Portoflio item styling */
+#project-title {
+    font-weight: 700;
+}
+
+
+/* Ribbon Rack page styling */
+
+@media only screen and (max-width: 1024px) {
+    #timeline-column {
+        margin-bottom: 3rem;
+    }
+}
+
+#ribbon-rack {
+    margin-bottom: 2rem;
+}
+
 .mil-ribbon-row {
     margin-bottom: .25rem!important;
 }
@@ -8,4 +43,14 @@
 
 .mil-ribbon img:hover {
     cursor: pointer;
+}
+
+#medal-name {
+    font-weight: 700;
+}
+
+
+/* Footer-specific styling */
+.hero-foot {
+    margin: 3rem 0rem;
 }
