@@ -1,0 +1,11 @@
+.mil-ribbon-row {
+    margin-bottom: .25rem!important;
+}
+
+.mil-ribbon {
+    padding: .25rem;
+}
+
+.mil-ribbon img:hover {
+    cursor: pointer;
+}
