@@ -21,7 +21,9 @@ $(window).resize(function() {
 let ribbon = $(".mil-ribbon > img");
 
 ribbon.click(function() {
-    $("#medal-name").empty();
-    var medal = $(this).attr("alt");
-    $("#medal-name").text(medal);
+    $("#ribbon-name").empty();
+    var ribbon = $(this).attr("alt");
+    $("#ribbon-name").text(ribbon);
+
+
 })
