@@ -25,5 +25,10 @@ ribbon.click(function() {
     var ribbon = $(this).attr("alt");
     $("#ribbon-name").text(ribbon);
 
+    // ribbonText();
 
 })
+
+// function ribbonText() {
+
+// }
