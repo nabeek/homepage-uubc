@@ -6,6 +6,7 @@ body {
 
 
 /* Navbar-specific styling */
+
 /* .navbar-item {
     color: black;
 }
@@ -14,13 +15,90 @@ body {
     color: black;
 } */
 
+/* Homepage styling */
+
+#homepage-name {
+    font-size: 2.5rem;
+}
+
+#homepage-status {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .resume-icon {
-    padding: 0 1rem;
+    font-size: 3em;
+    padding: 0 .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .homepage-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    #homepage-name {
+        font-size: 1.5rem;
+    }
+    #homepage-status {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .resume-icon {
+        font-size: 2.5em;
+    }
 }
 
 /* Portoflio item styling */
 #project-title {
     font-weight: 700;
+}
+
+
+/* Resume styling */
+
+#resume-name {
+    font-size: 2.5rem;
+    margin-bottom: 2em;
+}
+
+#resume-section {
+    font-size: 1.25rem;
+}
+
+.job-entry {
+    margin-bottom: 2em;
+}
+
+.resume-job {
+    font-size: 1.5rem;
+}
+
+.resume-position,
+.job-entry li {
+    font-size: 1.25rem;
+}
+
+.resume-date {
+    display: block;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    #resume-name {
+        font-size: 1.5rem;
+    }
+    #resume-section {
+        font-size: .75rem;
+    }
+    .resume-job {
+        font-size: 1.25rem;
+    }
+    .resume-position,
+    .job-entry li {
+        font-size: 1rem;
+    }
 }
 
 
@@ -54,6 +132,7 @@ body {
 
 
 /* Footer-specific styling */
+
 #footer {
     margin: 3rem 0rem;
 }
