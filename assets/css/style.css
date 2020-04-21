@@ -5,25 +5,14 @@ body {
 }
 
 
-/* Navbar-specific styling */
-
-/* .navbar-item {
-    color: black;
-}
-
-.tabs a {
-    color: black;
-} */
-
 /* Homepage styling */
 
-#homepage-name {
-    font-size: 2.5rem;
+.homepage-name {
+    font-size: 2rem;
 }
 
-#homepage-status {
+#homepage-email {
     font-size: 1.5rem;
-    font-weight: 600;
 }
 
 .resume-icon {
@@ -38,35 +27,40 @@ body {
         margin-right: auto;
         width: 50%;
     }
-    #homepage-name {
+    .homepage-name {
         font-size: 1.5rem;
     }
-    #homepage-status {
+    #homepage-email {
         font-size: 1rem;
-        font-weight: 600;
     }
     .resume-icon {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
 
 /* Portoflio item styling */
+
+.portfolio-project {
+    color: #3273DC;
+}
+
+.portfolio-project:hover {
+    color: black;
+    cursor: pointer;
+}
+
 #project-title {
     font-weight: 700;
 }
 
-
-/* Resume styling */
-
-#resume-name {
-    font-size: 2.5rem;
+#portfolio-screenshot{
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     margin-bottom: 2em;
 }
 
-#resume-section {
-    font-size: 1.25rem;
-}
+/* Resume styling */
 
+#resume-name,
 .job-entry {
     margin-bottom: 2em;
 }
@@ -75,6 +69,7 @@ body {
     font-size: 1.5rem;
 }
 
+#resume-section,
 .resume-position,
 .job-entry li {
     font-size: 1.25rem;
@@ -85,20 +80,28 @@ body {
     text-align: right;
 }
 
+
+.resume-button {
+    font-size: 1rem;
+}
+
 @media only screen and (max-width: 768px) {
     #resume-name {
         font-size: 1.5rem;
     }
-    #resume-section {
-        font-size: .75rem;
-    }
     .resume-job {
-        font-size: 1.25rem;
-    }
-    .resume-position,
-    .job-entry li {
         font-size: 1rem;
     }
+    #resume-section,
+    .resume-position,
+    .job-entry li {
+        font-size: .75rem;
+    }
+    .resume-button {
+        border-radius: 2px;
+        font-size: 0.75rem;
+    }
+
 }
 
 
@@ -138,7 +141,8 @@ body {
 }
 
 #nabeek-link:hover,
-#match-id:hover {
+#match-id:hover,
+#repo-link:hover {
     cursor: pointer;
     color: #3273DC;
 }
