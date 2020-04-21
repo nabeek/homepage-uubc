@@ -32,7 +32,7 @@ project.click(function() {
     screenshot.attr("src", "./assets/images/quiz screenshot.png");
     repo.attr("href", "https://github.com/nabeek/UUBC-Homework4");
     link.attr("href", "https://nabeek.github.io/UUBC-Homework4/");
-  } else if (project === "Weekly Planner") {
+  } else if (project === "Daily Planner") {
     screenshot.attr("src", "./assets/images/planner screenshot.png");
     repo.attr("href", "https://github.com/nabeek/UUBC-Homework5");
     link.attr("href", "https://nabeek.github.io/UUBC-Homework5/");
