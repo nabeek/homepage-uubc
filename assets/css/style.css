@@ -53,6 +53,12 @@ body {
     font-weight: 700;
 }
 
+#portfolio-right-name,
+#portfolio-repo,
+#portfolio-link {
+    display: none;
+}
+
 #portfolio-screenshot{
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     margin-bottom: 2em;
