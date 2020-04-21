@@ -7,14 +7,14 @@ This serves as my personal website and functions as a living portfolio of the pr
 I've worked with developers of various platforms and products for over seven years, and always had the passion to learn web development. My earliest attempts were very rudimentary, building Wordpress and sites and utilizing an understanding of HTML I gained back in high school (2003ish). With my growing skillset, this website is my attempt to build something I'm proud of, that is really "me" in design, and that I think will attract potential employers and collaborators to get in contact with me.
 
 # Screenshots
-![iPhone XS Max Screenshot](https://user-images.githubusercontent.com/4752937/79894343-8b2b8280-83c2-11ea-9c35-f010ee35158a.png)
+![iPhone XS Max Screenshot](https://user-images.githubusercontent.com/4752937/79895436-1f4a1980-83c4-11ea-8804-c7b31a59aa63.png)
 
 # Tech Used
 
 **Built with:**
 
-Adobe Illustrator
-Adobe Photoshop
+[Adobe Illustrator](https://www.adobe.com/products/illustrator.html)\
+[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)\
 [Bulma](https://bulma.io/)\
 [Font Awesome](https://fontawesome.com)\
 [jQuery](https://jquery.com)\
@@ -61,9 +61,10 @@ Win/loss logic in the "Did Jonas Win with VS" call
 # Roadmap
 
 - Finish adding description/amplifying information to each ribbon on the Ribbon Rack (will change on click, like the name)
-- Find and build another weekend project, (as of 4/21) thinking about a COVID-19 tracker [I did recently build a 355M GPT-2 model trained by the Twitter account @NihilistArbys, to see how nihilist-y it would get; it was perhaps too nihilist-y for me to want to add to my portfolio]
+- Add virtual reality content links and still photography to the portfolio page
 - Redesign the portfolio page to use a card/tile view, incorporating desktop and mobile mockup screenshots and gifs
 - Write my own adaptive CSS framework for text sizing specifically, as I'm not impressed with Bulma's options
+- Find and build another weekend project, (as of 4/21) thinking about a COVID-19 tracker [I did recently build a 355M GPT-2 model trained by the Twitter account @NihilistArbys, to see how nihilist-y it would get; it was perhaps too nihilist-y for me to want to add to my portfolio]
 
 # License
 
