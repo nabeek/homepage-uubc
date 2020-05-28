@@ -1,137 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/css/bulma-extensions.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/css/bulma-extensions.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <section class="hero is-fullheight is-default is-bold">
-        <!-- Beginning of navbar-->
-        <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <a class="navbar-item" href="/">
-                            <p class="has-text-weight-bold is-size-4">nabeek</p>
-                        </a>
-                        <span class="navbar-burger burger" data-target="navbarMenu">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </div>
-                    <div id="navbarMenu" class="navbar-menu">
-                        <div class="navbar-end">
-                            <div class="tabs is-right">
-                                <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="./portfolio.html">Portfolio</a></li>
-                                    <li class="is-active"><a href="./resume.html">Resume</a></li>
-                                    <!-- <li><a href="./about.html">About</a></li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- End of navbar -->
-
-        <!-- Beginning of main content -->
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title has-text-centered" id="resume-name">Nicholas Beekhuizen</h1>
-                <h3 class="subtitle has-text-centered" id="resume-section">Experience</h3>
-
-                <section class="job-entry" id="bridge-job">
-                    <h4 class="title resume-job">Bridge Investment Group</h4>
-                    <h4 class="subtitle resume-position">IT Project Manager <span style="float:right">June 2019 - present</span></h4>
-                    <ul>
-                        <li>Complete strategic analysis and remediation of IT infrastructure projects across multiple verticals with $20B in assets under management</li>
-                        <li>Serve as liaison for all IT and technology-services vendors or providers for 160+ properties and five corporate offices throughout the U.S.</li>
-                        <li>Revamped Agile intake processes, eliminating 25% of wasted development hours and shortening deployment timelines to ensure critical product delivery dates were met</li>
-                    </ul>                
-                </section>
-
-                <section class="job-entry" id="ablevets-job">
-                    <h4 class="title resume-job">AbleVets</h4>
-                    <h4 class="subtitle resume-position">Cyber Threat Intelligence Anlayst <span style="float:right">Sep 2018 - June 2019</span></h4>
-                    <ul>
-                        <li>Authored and disseminated serialized reporting and weekly situation briefings to thousands of Department of Veterans Affairs personnel</li>
-                        <li>Performed analytic support focused on cyber doctrine and policies, and threat actor capabilities and intent</li>
-                        <li>Provided targeted attack detection and analysis, including development of custom signatures and analytics for Advanced Persistant Threat groups</li>
-                    </ul>                
-                </section>
-
-                <section class="job-entry" id="rtm-job">
-                    <h4 class="title resume-job">Red Touch Media/Laduma</h4>
-                    <h4 class="subtitle resume-position">Project Manager, Production Manager<span style="float:right">June 2014 - Sep 2018</span></h4>
-                    <ul>
-                        <li>Directed the execution and development of 200+ custom software solutions and 100+ virtual, augmented, and mixed reality projects by dual-continent teams of over 20 software engineers, producers, editors, and VFX artists</li>
-                        <li>Planned and executed virtual reality location shoots in Morocco, Namibia, and South Africa; France, the U.K., and Scotland; both eastern and western contiguous U.S., Hawaii, and Mexico</li>
-                    </ul>                
-                </section>
-
-                <section class="job-entry" id="airforce-job">
-                    <h4 class="title resume-job">United States Air Force</h4>
-                    <h4 class="subtitle resume-position">Intelligence Analyst<span style="float:right">Oct 2006 - Aug 2013</span></h4>
-                    <ul>
-                        <li>Achieved the rank of Staff Sergeant while serving as an Operations Intelligence Analyst for nearly seven years</li>
-                        <li>Decorated for meritorious service with the Bronze Star Medal, Joint Service Commendation and Achievement Medals, and Air Force Commendation Medal, along with numerous quarterly and yearly awards for leadership and volunteering</li>
-                        <li>Managed multiple teams of analysts at each level of the Intelligence Community, including developing robust training curriculum for junior analysts including research methods, executive-level presentation, and public speaking</li>
-                    </ul>                
-                </section>
-                
-                <h3 class="subtitle has-text-centered" id="resume-section">Education</h3>
-
-                <section class="job-entry" id="uofu-job">
-                    <h4 class="title resume-job">University of Utah</h4>
-                    <h4 class="subtitle resume-position">Bachelor of Science, Political Science<span style="float:right">May 2017</span></h4>               
-                </section>
-
-                <section class="job-entry" id="ccaf-job">
-                    <h4 class="title resume-job">Community College of the Air Force</h4>
-                    <h4 class="subtitle resume-position">Associate of Applied Science, Intelligence Studies<span style="float:right">Aug 2012</span></h4>              
-                </section>
-
-                <div class="has-text-centered">
-                    <a href="./assets/files/Resume_Beekhuizen_2020_Web.pdf">
-                        <button class="button is-link resume-button">
-                            <span class="icon">
-                              <i class="fas fa-file-download"></i>
-                            </span>
-                            <span>Download</span>
-                        </button>
-                    </a>
-                </div>
+      <!-- Beginning of navbar-->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="/">
+                <p class="has-text-weight-bold is-size-4">nabeek</p>
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
             </div>
-        </div>
-
-        <div class="hero-foot" id="footer">
-            <div class="container">
-                <div class="tabs is-centered">
-                    <ul>
-                        <li><small><span id="nabeek-link" onclick="window.open('https://nabeek.github.io')">nabeek made this</span>, copyright &copy; <span id="copyright-year"></span></small></li>
-                    </ul>
+            <div id="navbarMenu" class="navbar-menu">
+              <div class="navbar-end">
+                <div class="tabs is-right">
+                  <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="is-active">
+                      <a href="./resume.html">Resume</a>
+                    </li>
+                    <!-- <li><a href="./about.html">About</a></li> -->
+                  </ul>
                 </div>
+              </div>
             </div>
+          </div>
+        </nav>
+      </div>
+      <!-- End of navbar -->
+
+      <!-- Beginning of main content -->
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-centered" id="resume-name">
+            Nicholas Beekhuizen
+          </h1>
+          <h3 class="subtitle has-text-centered" id="resume-section">
+            Experience
+          </h3>
+
+          <section class="job-entry" id="bridge-job">
+            <h4 class="title resume-job">Bridge Investment Group</h4>
+            <h4 class="subtitle resume-position">
+              IT Project Manager
+              <span style="float: right;">June 2019 - present</span>
+            </h4>
+            <ul>
+              <li>
+                Complete strategic analysis and remediation of IT infrastructure
+                projects across multiple verticals with $20B in assets under
+                management
+              </li>
+              <li>
+                Serve as liaison for all IT and technology-services vendors or
+                providers for 160+ properties and five corporate offices
+                throughout the U.S.
+              </li>
+              <li>
+                Revamped Agile intake processes, eliminating 25% of wasted
+                development hours and shortening deployment timelines to ensure
+                critical product delivery dates were met
+              </li>
+            </ul>
+          </section>
+
+          <section class="job-entry" id="ablevets-job">
+            <h4 class="title resume-job">AbleVets</h4>
+            <h4 class="subtitle resume-position">
+              Cyber Threat Intelligence Anlayst
+              <span style="float: right;">Sep 2018 - June 2019</span>
+            </h4>
+            <ul>
+              <li>
+                Authored and disseminated serialized reporting and weekly
+                situation briefings to thousands of Department of Veterans
+                Affairs personnel
+              </li>
+              <li>
+                Performed analytic support focused on cyber doctrine and
+                policies, and threat actor capabilities and intent
+              </li>
+              <li>
+                Provided targeted attack detection and analysis, including
+                development of custom signatures and analytics for Advanced
+                Persistant Threat groups
+              </li>
+            </ul>
+          </section>
+
+          <section class="job-entry" id="rtm-job">
+            <h4 class="title resume-job">Red Touch Media/Laduma</h4>
+            <h4 class="subtitle resume-position">
+              Project Manager, Production Manager<span style="float: right;"
+                >June 2014 - Sep 2018</span
+              >
+            </h4>
+            <ul>
+              <li>
+                Directed the execution and development of 200+ custom software
+                solutions and 100+ virtual, augmented, and mixed reality
+                projects by dual-continent teams of over 20 software engineers,
+                producers, editors, and VFX artists
+              </li>
+              <li>
+                Planned and executed virtual reality location shoots in Morocco,
+                Namibia, and South Africa; France, the U.K., and Scotland; both
+                eastern and western contiguous U.S., Hawaii, and Mexico
+              </li>
+            </ul>
+          </section>
+
+          <section class="job-entry" id="airforce-job">
+            <h4 class="title resume-job">United States Air Force</h4>
+            <h4 class="subtitle resume-position">
+              Intelligence Analyst<span style="float: right;"
+                >Oct 2006 - Aug 2013</span
+              >
+            </h4>
+            <ul>
+              <li>
+                Achieved the rank of Staff Sergeant while serving as an
+                Operations Intelligence Analyst for nearly seven years
+              </li>
+              <li>
+                Decorated for meritorious service with the Bronze Star Medal,
+                Joint Service Commendation and Achievement Medals, and Air Force
+                Commendation Medal, along with numerous quarterly and yearly
+                awards for leadership and volunteering
+              </li>
+              <li>
+                Managed multiple teams of analysts at each level of the
+                Intelligence Community, including developing robust training
+                curriculum for junior analysts including research methods,
+                executive-level presentation, and public speaking
+              </li>
+            </ul>
+          </section>
+
+          <h3 class="subtitle has-text-centered" id="resume-section">
+            Education
+          </h3>
+
+          <section class="job-entry" id="uofu-job">
+            <h4 class="title resume-job">University of Utah</h4>
+            <h4 class="subtitle resume-position">
+              Bachelor of Science, Political Science<span style="float: right;"
+                >May 2017</span
+              >
+            </h4>
+          </section>
+
+          <section class="job-entry" id="ccaf-job">
+            <h4 class="title resume-job">Community College of the Air Force</h4>
+            <h4 class="subtitle resume-position">
+              Associate of Applied Science, Intelligence Studies<span
+                style="float: right;"
+                >Aug 2012</span
+              >
+            </h4>
+          </section>
+
+          <div class="has-text-centered">
+            <a href="./assets/files/Resume_Beekhuizen_2020_Web.pdf">
+              <button class="button is-link resume-button">
+                <span class="icon">
+                  <i class="fas fa-file-download"></i>
+                </span>
+                <span>Download</span>
+              </button>
+            </a>
+          </div>
         </div>
+      </div>
+
+      <div class="hero-foot" id="footer">
+        <div class="container">
+          <div class="tabs is-centered">
+            <ul>
+              <li>
+                <small
+                  ><span
+                    id="nabeek-link"
+                    onclick="window.open('https://nabeek.github.io')"
+                    >nabeek made this</span
+                  >, copyright &copy; <span id="copyright-year"></span
+                ></small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/js/bulma-extensions.min.js"></script>
-    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
-
-</body>
+  </body>
 </html>
