@@ -26,14 +26,10 @@ project.click(function () {
     screenshot.attr("src", "./assets/images/en screenshot.png");
     repo.attr("href", "https://github.com/nabeek/Earthquake-Now");
     link.attr("href", "https://nabeek.github.io/Earthquake-Now/");
-  } else if (name === "JavaScript Quiz") {
-    screenshot.attr("src", "./assets/images/quiz screenshot.png");
-    repo.attr("href", "https://github.com/nabeek/UUBC-Homework4");
-    link.attr("href", "https://nabeek.github.io/UUBC-Homework4/");
-  } else if (name === "Daily Planner") {
-    screenshot.attr("src", "./assets/images/planner screenshot.png");
-    repo.attr("href", "https://github.com/nabeek/UUBC-Homework5");
-    link.attr("href", "https://nabeek.github.io/UUBC-Homework5/");
+  } else if (name === "Cookbook") {
+    screenshot.attr("src", "./assets/images/cookbook.png");
+    repo.attr("href", "https://github.com/nabeek/cookbook");
+    link.attr("href", "https://the-cookbook-app.herokuapp.com/");
   } else if (name === "Team Generator") {
     screenshot.attr(
       "src",
